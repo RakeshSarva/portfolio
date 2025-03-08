@@ -502,10 +502,6 @@
     width: 50%;
   }
   
-  .skills-content .right .django::before {
-    width: 70%;
-  }
-  
   /*  Projects  */
   .projects .title::after {
     content: "What I did ?";
