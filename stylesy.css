@@ -482,8 +482,8 @@
     background: #1e3551;
   }
   
-  .skills-content .right .python::before {
-    width: 90%;
+  .skills-content .right .java::before {
+    width: 70%;
   }
   
   .skills-content .right .html::before {
@@ -519,7 +519,6 @@
     overflow: hidden;
     transition: all 0.3s ease;
   }
-  
   .projects .carousel .card:hover {
     background: #1e3551;
   }
@@ -546,7 +545,7 @@
     height: 150px;
     width: 280px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 50%;
     border: 5px solid #888c8d;
     transition: all 0.3s ease;
   }
@@ -759,10 +758,10 @@
   }
   
   .social-menu ul li:nth-child(3) a:hover {
-    background-color: #e4405f;
+    background-color: rgb(189, 90, 166)
   }
   .social-menu ul li:nth-child(4) a:hover {
-    background-color: #1da1f2;
+    background-color: #68e592;
   }
   
   .social-menu ul li:nth-child(5) a:hover {

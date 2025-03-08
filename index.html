@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
-<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css'>
-<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"rel="stylesheet'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"rel="stylesheet'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
     <link rel="stylesheet" href="stylesy.css" />
   </head>
   <body>
@@ -133,9 +133,9 @@
               <div class="bars">
                 <div class="info">
                   <span>Java</span>
-                  <span>40%</span>
+                  <span>70%</span>
                 </div>
-                <div class="line python"></div>
+                <div class="line java"></div>
               </div>
               <div class="bars">
                 <div class="info">
@@ -175,23 +175,24 @@
         <div class="max-width">
           <h2 class="title">My Projects</h2>
           <div class="carousel owl-carousel">
+            <p style="color:red;">Hlo</p>
             <div class="card">
               <div class="box">
-                <img src="minorpic.jpg" alt="">
+                <img src="./images/minorpic.jpg" alt="minor project">
                 <div class="text">Item Recommendation</div>
-                <p>Description:- The main theme of this project is to suggests only the exact items. There are no similar suggestions. It suggests items based on the name we enter.</p>
+                <p>Description:- The main theme of this project is to suggests only the exact items. There are no similar suggestions. It suggest items based on the name we enter.</p>
               </div>
             </div>
             <div class="card">
               <div class="box">
-                <img src="majorpic.jpg" alt="">
+                <img src="./images/majorpic.jpg" alt="major project">
                 <div class="text">Secure Cloud Access</div>
                 <p>Description:- Here we made a secure access to the cloud services. Based on the Bio-metric individuals will get login to their account's.</p>
               </div>
             </div>
             <div class="card">
               <div class="box">
-                <img src="portfoliopic.jpg" alt="">
+                <img src="./images/portfoliopic.jpg" alt="portfolio">
                 <div class="text">Portfolio</div>
                 <p>Description:- I have made a personal portfolio, which discribes about my skills,interests and my personal details along with my resume.</p>
               </div>
@@ -249,11 +250,10 @@
                 <!-- Social -->
                 <div class="social-menu">
                   <ul>
-                    <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a href="#" title="Get Educate with Us"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                    <li><a href="https://github.com/RakeshSarva"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/sarvarakesh1"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.instagram.com/sarva.rakesh.007/#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://wa.link/aqf3j6"><i class="fa-brands fa-whatsapp"></i></a></li>
                   </ul>
                 </div>
               </div>
@@ -262,20 +262,20 @@
             <!-- Reach -->
             <div class="column right">
               <div class="text">Message me</div>
-              <form action="#">
+              <form action="sendWhatsApp.jsp">
                 <div class="fields">
                   <div class="field name">
-                    <input type="text" placeholder="Your Name" required>
+                    <input type="text" placeholder="Your Name" name="name" required>
                   </div>
                   <div class="field email">
-                    <input type="email" placeholder="Your Email" required>
+                    <input type="email" placeholder="Your Email" name="email" required>
                   </div>
                 </div>
                 <div class="field">
-                  <input type="text" placeholder="Subject" required>
+                  <input type="text" placeholder="Subject" name="subject" required>
                 </div>
                 <div class="field textarea">
-                  <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                  <textarea cols="30" rows="10" placeholder="Message.." name="location" required></textarea>
                 </div>
                 <div class="button-area">
                   <button type="submit">Send message</button>
